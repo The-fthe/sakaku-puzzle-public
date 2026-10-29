@@ -1,0 +1,4 @@
+interface:
+  display_name: "unityroom WebGL Build"
+  short_description: "unityroom向けWebGLのビルド・検証・ZIP作成"
+  default_prompt: "Use $unityroom-webgl-build to create and verify a unityroom-ready WebGL ZIP."

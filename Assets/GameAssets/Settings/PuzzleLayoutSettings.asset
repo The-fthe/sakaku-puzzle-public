@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 672111ffb50115842ade9abfac41e45b, type: 3}
+  m_Name: PuzzleLayoutSettings
+  m_EditorClassIdentifier: SakakuPuzzle.Runtime::SakakuPuzzle.PuzzleLayoutSettings
+  _tileGap: 0
+  _travelerSizeRatio: 0.36
+  _travelerMinSize: 30
+  _travelerMaxSize: 46
+  _destinationSizeRatio: 0.46
+  _destinationMinSize: 42
+  _destinationMaxSize: 58

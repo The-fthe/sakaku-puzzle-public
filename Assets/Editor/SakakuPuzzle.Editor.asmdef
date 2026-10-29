@@ -1,0 +1,20 @@
+{
+  "name": "SakakuPuzzle.Editor",
+  "rootNamespace": "SakakuPuzzle.Editor",
+  "references": [
+    "SakakuPuzzle.Runtime",
+    "Unity.TextMeshPro",
+    "uLoopMCP.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

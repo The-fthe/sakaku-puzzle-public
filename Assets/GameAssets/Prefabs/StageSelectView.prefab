@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3473733305735143977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8670456148546976502}
+  - component: {fileID: 5756237280046327985}
+  m_Layer: 0
+  m_Name: StageSelectView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8670456148546976502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473733305735143977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4680565765694665246}
+  - {fileID: 1974557095148297394}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5756237280046327985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3473733305735143977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d45be82043c024ab1fb6a836217b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SakakuPuzzle.Runtime::SakakuPuzzle.StageSelectView
+  _portraitLayout: {fileID: 4814990156257478443}
+  _landscapeLayout: {fileID: 761325744018751577}
+--- !u!1001 &5920354041325069463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8670456148546976502}
+    m_Modifications:
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3434067547955717573, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+      propertyPath: m_Name
+      value: StageSelectPortraitLayout
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+--- !u!224 &4680565765694665246 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1359497070589712009, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+  m_PrefabInstance: {fileID: 5920354041325069463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4814990156257478443 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1223601047063258044, guid: b24e2f49a5db9f448be88a74abdb1b50, type: 3}
+  m_PrefabInstance: {fileID: 5920354041325069463}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297556c70da744549a545db9c947316f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SakakuPuzzle.Runtime::SakakuPuzzle.StageSelectLayoutView
+--- !u!1001 &8085402810108066927
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8670456148546976502}
+    m_Modifications:
+    - target: {fileID: 6865540072336392309, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_Name
+      value: StageSelectLandscapeLayout
+      objectReference: {fileID: 0}
+    - target: {fileID: 6865540072336392309, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+--- !u!114 &761325744018751577 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8837710359687511094, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+  m_PrefabInstance: {fileID: 8085402810108066927}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297556c70da744549a545db9c947316f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: SakakuPuzzle.Runtime::SakakuPuzzle.StageSelectLayoutView
+--- !u!224 &1974557095148297394 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7733267918974427357, guid: 9baf6d73664b08d479e8ce977bb2b66a, type: 3}
+  m_PrefabInstance: {fileID: 8085402810108066927}
+  m_PrefabAsset: {fileID: 0}

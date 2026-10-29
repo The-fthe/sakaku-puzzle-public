@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6621615f3a2748646896854f36943fe0, type: 3}
+  m_Name: PuzzleUiCatalog
+  m_EditorClassIdentifier: SakakuPuzzle.Runtime::SakakuPuzzle.PuzzleUiCatalog
+  _theme: {fileID: 11400000, guid: dce6fdfc24c24e244b43c70184cfed82, type: 2}
+  _layout: {fileID: 11400000, guid: 3046f67156a25a44797609065a867e00, type: 2}
+  _motion: {fileID: 11400000, guid: 3811c1fccb6c6dd4e8ad596469441788, type: 2}
+  _liveServiceAssets: {fileID: 11400000, guid: bd3381e8b6d013140a9fbd893db3cce3, type: 2}
+  _boardPrefab: {fileID: 1941159657106023011, guid: 018e7bcf3a3a422449f541aa5a9984e7, type: 3}
+  _mapTilePrefab: {fileID: 8905438637448269429, guid: e640cc6c93564ed449b07c09dabb7db1, type: 3}
+  _gameCursorPrefab: {fileID: 6503762493877574227, guid: 84ed9334f4c3a474694dbafc9b4a1f6e, type: 3}
+  _travelerMarkerPrefab: {fileID: 6824007594817213620, guid: 18b08ccda993b4f4798231dc2cb02a83, type: 3}
+  _travelerBrushTrailPrefab: {fileID: 6195956263937341956, guid: 7c1e3c19ec14ae84ba950af834b3676a, type: 3}
+  _destinationMarkerPrefab: {fileID: 782826738440730043, guid: e10754f179334a14f8e713e934cc15f6, type: 3}
+  _gameHudPrefab: {fileID: 6139676466029097054, guid: c46e060bd8e8bbe4c9e2ef7219503c35, type: 3}
+  _debugConsolePrefab: {fileID: 52291802585776670, guid: df46d446abb96b34aabb2267dbcf6b58, type: 3}
+  _resultPanelPrefab: {fileID: 9106167557742289597, guid: 77868c0784759284ca5d4164ee8b6cb1, type: 3}
+  _howToPanelPrefab: {fileID: 6120020159520252160, guid: 2af23177a06086548854e036a3d16db0, type: 3}
+  _stageSelectViewPrefab: {fileID: 5756237280046327985, guid: ac68c733ab771c24d9f682f53839838a, type: 3}
+  _stageNodePrefab: {fileID: 3056064068381187613, guid: c5a0194524aa06a458081c463f1fd7e5, type: 3}
+  _inkButtonPrefab: {fileID: 124737648492653148, guid: 8841b30d374c9664392d0d2327305da1, type: 3}
+  _screenTransitionPrefab: {fileID: 6134840631661264522, guid: 94a43f022a674034d981e3a59be968ee, type: 3}

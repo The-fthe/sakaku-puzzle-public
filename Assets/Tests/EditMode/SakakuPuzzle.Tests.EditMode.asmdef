@@ -1,0 +1,23 @@
+{
+  "name": "SakakuPuzzle.Tests.EditMode",
+  "rootNamespace": "SakakuPuzzle.Tests",
+  "references": [
+    "SakakuPuzzle.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9bee2e8f511a64784d72bf01157b58, type: 3}
+  m_Name: PuzzleMotionSettings
+  m_EditorClassIdentifier: SakakuPuzzle.Runtime::SakakuPuzzle.PuzzleMotionSettings
+  _tileRotationDuration: 0.36
+  _tileRotationPeakScale: 1.2
+  _fadeInDuration: 0.34
+  _fadeOutDuration: 0.42
+  _fadeHoldDuration: 0.1
+  _travelSpeedInTiles: 3.2
+  _trailWidthRatio: 0.8
+  _trailVisibleInkWidthRatio: 0.4
+  _trailWallClearanceRatio: 0.02
+  _trailTextureTileRatio: 0.72
+  _travelRouteCornerRadiusRatio: 0.64
+  _travelRouteCornerSegments: 8
+  _destinationScatterDuration: 0.45
